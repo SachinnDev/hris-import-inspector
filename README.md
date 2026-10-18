@@ -4,6 +4,8 @@ A React and Node.js/Express application that previews and validates an HRIS CSV 
 
 The application analyzes the uploaded HRIS data in memory and provides validation results, manager relationships, root employees, direct-report counts, and reporting-cycle detection.
 
+LIVE LINK : https://hris-import-inspector.vercel.app/
+
 ## Features
 
 * Upload an HRIS CSV from the browser
