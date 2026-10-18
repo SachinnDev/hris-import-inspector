@@ -49,7 +49,7 @@ function App() {
     formData.append("file", file);
 
     try {
-      const response = await fetch("http://localhost:5000/api/import", {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/import`, {
         method: "POST",
         body: formData,
       });
